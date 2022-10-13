@@ -53,4 +53,4 @@ Usage:
 Usage:
 
        mandala.custom(l1, color11, color12, l2, color21, color22,
-                      l3, color31, color32, l4, color41, color42,)
+                      l3, color31, color32, l4, color41, color42)

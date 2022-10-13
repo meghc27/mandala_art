@@ -20,6 +20,10 @@ This generates a single Mandala.
 * color2: This works with bicolor. Specifies the second color of the mandala. Must be a tuple of (r,g,b) values.
 * animate: If set to True this shows the animation for drawing the mandala. If set to False only in image is shown on the screen without animation.
 
+Usage:
+
+              mandala.generate()
+
 
 2. multiple(num_mandalas=10, screensize = 550)<br>
 This generates mandalas one after the other and is always animated.
@@ -27,6 +31,12 @@ This generates mandalas one after the other and is always animated.
 * num_mandalas: The number of Mandalas to be generated. Must be an integer.
 * screensize: This is the size of screen which is is square in shape.
              
+             
+Usage:
+
+              mandala.multiple()
+              
+              
 3. custom(l1, color11, color12, l2, color21, color22,<br>
            l3, color31, color32, l4, color41, color42,<br>
            bgcolor=(0,0,0), screensize = 550, animate = True)<br>

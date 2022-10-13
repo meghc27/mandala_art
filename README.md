@@ -1,6 +1,6 @@
 # Mandala Art
 
-This repository uses Python turtle to generate beautiful and intricate Mandalas.
+This repository uses Python turtle to generate beautiful and intricate Mandalas. Some examples can be seen in Images/
 
 There are three ways to do it:
 
@@ -28,6 +28,8 @@ This generates mandalas one after the other and is always animated.
 3. custom(l1, color11, color12, l2, color21, color22,<br>
            l3, color31, color32, l4, color41, color42,<br>
            bgcolor=(0,0,0), screensize = 550, animate = True)<br>
+           
+ This generates a custom Mandala. To see different layer options refer to the folder Layer_Images/
            
 * l{i}: This is the choice of the i-th layer. Takes values from 1-4, 1-2, 1-3 and 1-2 for layers 1 to 4 respectively.
 * color1{i}: This is the first color of the i-th layer. Must be a tuple of (r,g,b) values.

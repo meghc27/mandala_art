@@ -1,6 +1,8 @@
 # Mandala Art
 
-This repository uses Python turtle to generate beautiful and intricate Mandalas. Some examples can be seen in Images/
+This repository uses Python turtle to generate beautiful and intricate Mandalas. Some examples can be seen in Images/. To generate your own mandalas please clone this repository to your working directory. To import use:
+       
+       from mandala_art import mandala
 
 There are three ways to do it:
 

@@ -22,7 +22,7 @@ This generates a single Mandala.
 
 Usage:
 
-              mandala.generate()
+       mandala.generate()
 
 
 2. multiple(num_mandalas=10, screensize = 550)<br>
@@ -34,7 +34,7 @@ This generates mandalas one after the other and is always animated.
              
 Usage:
 
-              mandala.multiple()
+       mandala.multiple()
               
               
 3. custom(l1, color11, color12, l2, color21, color22,<br>
@@ -49,3 +49,8 @@ Usage:
 * bgcolor: This is the background color of the canvas. It takes a tuple of (r,g,b) values.
 * screensize: This is the size of screen which is is square in shape.
 * animate: If set to True this shows the animation for drawing the mandala. If set to False only in image is shown on the screen without animation.
+
+Usage:
+
+       mandala.custom(l1, color11, color12, l2, color21, color22,
+                      l3, color31, color32, l4, color41, color42,)

@@ -1,10 +1,22 @@
 # Mandala Art
 
-This repository uses Python turtle to generate beautiful and intricate Mandalas. Some examples can be seen in Images/. To generate your own mandalas please clone this repository to your working directory. To import use:
+This repository uses Python turtle to generate beautiful and intricate Mandalas. Some examples can be seen in Images/. To generate your own mandalas please clone this repository to your working directory. 
+
+Requirements:
+* turtle
+* numpy
+* math
+* random
+* colorsys
+
+To install turtle:
+       pip install turtle
+
+To import the mandala package use:
        
        from mandala_art import mandala
 
-There are three ways to do it:
+There are three ways to generate mandalas:
 
 1. generate(color_scheme = 'colorful', bgcolor = 'black',<br>
              screensize = 550, fcolor = bright_color_gen(),<br>

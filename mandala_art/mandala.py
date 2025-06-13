@@ -41,7 +41,7 @@ def generate(
         )
 
     if animate:
-        turtle.tracer(10)
+        turtle.tracer(50)
         turtle.speed(0)
     else:
         turtle.tracer(0)
